@@ -1,16 +1,9 @@
 body {
 	max-width: 1920px;
-	margin: auto;
-}
-* {
 	font-family: 'Inter';
-	font-style: normal;
 }
+
 .top-header {
-	background-color: white;
-	position: sticky;
-	top:0;
-	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
 	padding-inline: 100px;
@@ -90,9 +83,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/*#gallery {
+	/*	min-height: 100vh; 
+}*/
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -144,13 +137,13 @@ body {
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-style: italic;
 	font-weight: 300;
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-weight: 800;
 	font-size: 22px;
 }
@@ -222,7 +215,7 @@ form {
 	align-items: flex-start;
 }
 
-form input {
+input {
 	width: 100%;
 	background-color: transparent;
 	border: solid 1px;
@@ -230,7 +223,7 @@ form input {
 	margin-bottom: 20px;
 }
 
-form textarea {
+textarea {
 	width: 100%;
 	background-color: transparent;
 	border: solid 1px;
