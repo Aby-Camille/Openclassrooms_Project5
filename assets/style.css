@@ -347,7 +347,7 @@ footer {
 		right: 0;
 		z-index: -1;
 	}
-	.footer {
+	footer {
 		display: flex;
 		flex-direction: column;
 		gap: 15px;
