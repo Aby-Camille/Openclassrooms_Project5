@@ -347,6 +347,12 @@ footer {
 		right: 0;
 		z-index: -1;
 	}
+	.footer {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		align-items: inherit;
+	}
 }
 
 @media all and (max-width: 650px) {
