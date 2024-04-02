@@ -259,7 +259,7 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 /*ajout*/
-footer {
+.footer {
 	background-color: white;
 	top: 0;
 	z-index: 1000;
@@ -269,7 +269,7 @@ footer {
 	padding-block: 30px;
 	align-items: center;
 }
-  footer div > div:first-child {
+  .footer div > div:first-child {
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight: bolder;
 }
@@ -347,7 +347,7 @@ footer {
 		right: 0;
 		z-index: -1;
 	}
-	footer {
+	.footer {
 		display: flex;
 		flex-direction: column;
 		gap: 15px;
